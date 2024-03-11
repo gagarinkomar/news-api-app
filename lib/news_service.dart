@@ -4,7 +4,7 @@ import 'article.dart';
 
 class NewsService {
   final String apiKey =
-      '0279699a9b554d48b2839b0c9fb89d10'; // get here --> https://newsapi.org/register
+      'your_api_key'; // get here --> https://newsapi.org/register
   final String apiUrl =
       'https://newsapi.org/v2/top-headlines?country=us&category=business';
   int _pageNumber = 1;
